@@ -1,0 +1,7 @@
+月卡领取,MonthCardReward,,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,index,-1,配表索引,,,,,,
+返回参数,ret,retCode.ERR,,diamond,0,元宝数量,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+月卡请求,MonthCardQuery,,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,,,,,,,
+返回参数,ret,retCode.ERR,,haveCheapCard,0,小月卡是否已买,haveExpensiveCard,0,大月卡是否已买,cheapLeft,0,小月卡剩余天数,expensiveLeft,0,大月卡剩余天数,cardArr,[],配表索引数组表示是否已领取

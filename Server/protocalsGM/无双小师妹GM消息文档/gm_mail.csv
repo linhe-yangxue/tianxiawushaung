@@ -1,0 +1,7 @@
+发送邮件,SendMail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+req,zid,0,区ID,name,[],用户名不填为全服,title,,邮件标题,content,,内容,items,[ItemObject],附件物品,,,,,,,,,,,,,,,,,,,,,,,,
+res,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+定制邮件,CustomMadeMail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+req,zid,0,区ID,beginTime,0,开始时间（utc时间）,endTime,0,结束时间（utc时间）,title,,邮件标题,content,,内容,items,[ItemObject],附件物品,minUserLev,0,最小的角色等级(不限制填0),maxUserLev,0,最大的角色等级(不限制填0),minVipLev,0,最小的vip等级(不限制填0),maxVipLev,0,最大的vip等级(不限制填0),gid,,公会id(不限制填‘’),minGuildLev,0,最小的公会等级(不限制填0),maxGuildLev,0,最大的公会等级(不限制填0)
+res,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

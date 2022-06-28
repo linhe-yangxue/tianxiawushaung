@@ -1,0 +1,11 @@
+神秘商店请求 ,MysteryShopQuery,,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,,,,,,,
+返回参数,ret,retCode.ERR,,indexArr,[],,freeNum,10,免费刷新次数,leftTime,0,剩余时间,leftNum,0,剩余次数,mysteryArr,[],物品購買信息
+,,,,,,,,,,,,,,,,,,
+神秘商店刷新,MysteryShopRefresh,,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,consume,{ItemObject},刷新资源,,,,,,
+返回参数,ret,retCode.ERR,,indexArr,[],,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+神秘商店购买,MysteryShopPurchase,,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,indexNum,-1,,num,0,,,,
+返回参数,ret,retCode.ERR,,isBuySuccess,0,,buyItem,[ItemObject],,,,,,,,,,

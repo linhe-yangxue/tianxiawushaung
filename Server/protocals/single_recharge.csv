@@ -1,0 +1,7 @@
+获取单冲信息,GetSingleRechargeInfo,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区id,zuid,,角色Id,,,
+返回参数,ret,retCode.ERR,,beginTime,0,开始时间,endTime,0,结束时间,singleRecharges,[SingleRecharge],充值情况数组
+,,,,,,,,,,,,
+领取单冲奖励,RevSingleRechargeReward,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区id,zuid,,角色Id,index,0,单冲表格序号
+返回参数,ret,retCode.ERR,,rewards,[],物品数组 ,,,,,,

@@ -1,0 +1,7 @@
+宠物阵型变化的功能,PetLineupChange,,,,,,,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色Id,teamPos,0,阵位,upItemId,0,,upTid,0,,downItemId,0,,downTid,0
+返回参数,ret,retCode.ERR,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+宠物升级的功能,PetUpgrade,,,,,,,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色Id,itemId,0,,tid,0,,arr,[ItemObject],宠物消耗数组，对象ItemObject,,,,,
+返回参数,ret,retCode.ERR,,,,,,,,,,,,,,,,,,,,,

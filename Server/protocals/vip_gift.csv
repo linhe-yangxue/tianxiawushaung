@@ -1,0 +1,15 @@
+VIP每日礼包信息,VIPDailyInfo,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,
+返回参数,ret,retCode.ERR,,dailyWelfare,{},每日福利领取信息,,,,,,
+,,,,,,,,,,,,
+VIP周礼包信息,VIPWeeklyInfo,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,
+返回参数,ret,retCode.ERR,,weekWelfare,[],每周福利领取信息,,,,,,
+,,,,,,,,,,,,
+领取VIP每日礼包,VIPDaily,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,vipLevel,0,VIP等级
+返回参数,ret,retCode.ERR,,rewards,[ItemObject],每日领取的福利,,,,,,
+,,,,,,,,,,,,
+领取VIP每周福利,VIPWeek,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,index,0,礼包索引
+返回参数,ret,retCode.ERR,,rewards,[ItemObject],每周购买的福利,,,,,,

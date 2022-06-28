@@ -1,0 +1,7 @@
+神装商店请求 ,ClothShopQuery,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,,,,,,
+返回参数,ret,retCode.ERR,,cloth,[],,star,0,最高星数,,,,,,,,
+,,,,,,,,,,,,,,,,,
+神装商店购买,ClothShopPurchase,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,indexNum,0,,num,0,,itemIdArr,[]
+返回参数,ret,retCode.ERR,,isBuySuccess,0,,buyItem,[],,,,,,,,,

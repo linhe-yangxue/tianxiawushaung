@@ -1,0 +1,7 @@
+七日登录送礼请求,SevenDayLoginQuery,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,
+返回参数,ret,retCode.ERR,,indexArr,[],已领取奖励对应的配表中的索引,loginDay,0,已登录天数,,,
+,,,,,,,,,,,,
+七日登录送礼领取,SevenDayLoginReward,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,index,0,登录天数
+返回参数,ret,retCode.ERR,,items,[ItemObject],登录奖励数组,,,,,,

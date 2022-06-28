@@ -1,0 +1,2 @@
+node GenerateFileList.js
+pause

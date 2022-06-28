@@ -1,0 +1,7 @@
+获取竞技场排行榜,PvpList,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,
+返回参数,ret,retCode.ERR,,myRanking,-1,我的排行,ranklist,[ArenaRankObject],排行榜,endTime,0,结束时间
+,,,,,,,,,,,,
+战斗力排行,FightingList,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,
+返回参数,ret,retCode.ERR,,myRanking,-1,我的排行,ranklist,[MainUIRanklistObject],排行榜,endTime,0,结束时间

@@ -1,0 +1,7 @@
+声望商店请求 ,PrestigeShopQuery,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,,,,,,
+返回参数,ret,retCode.ERR,,commodity,[],,rank,0,历史最好排名,curRank,0,当前排名,,,,,
+,,,,,,,,,,,,,,,,,
+声望商店购买,PrestigeShopPurchase,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,pIndex,0,,num,0,,itemIdArr,[]
+返回参数,ret,retCode.ERR,,isBuySuccess,0,,buyItem,[],,,,,,,,,

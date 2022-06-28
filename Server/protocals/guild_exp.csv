@@ -1,0 +1,3 @@
+公会经验 ,AddGuildExp,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,uid,,用户ID,exp,0
+返回参数,ret,retCode.ERR,,,,,,,,,

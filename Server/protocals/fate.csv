@@ -1,0 +1,7 @@
+天命值清零,FateQuery,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,uid,,用户ID,itemId,-1,,tid,-1,,,
+返回参数,ret,retCode.ERR,,fateValue,0,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+天命升级,FateUpgrade,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,uid,,用户ID,itemId,-1,,tid,-1,,consume,{ItemObject}
+返回参数,ret,retCode.ERR,,isFateSuccess,0,,fateValue,0,升级后的天命值,,,,,,,,

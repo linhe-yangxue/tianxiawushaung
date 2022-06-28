@@ -1,0 +1,7 @@
+更新某个区的状态,GetZoneState,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区id,,,,,,
+返回参数,ret,retCode.ERR,,state,1,状态,,,,,,
+,,,,,,,,,,,,
+分页获取区列表,PageZoneList,,,,,,,,,,,
+请求参数,tk,,网络令牌,mac,,mac地址,page,0,页数,cnt,0,每页区数
+返回参数,ret,retCode.ERR,,zoneInfos,[InfoOfZone],区信息列表,,,,,,

@@ -1,0 +1,11 @@
+摇钱树请求,TreeOfGold,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,,,,
+返回参数,ret,retCode.ERR,,dayNum,0,今日摇钱次数,allNum,0,总摇钱次数,leftTime,0,距离下次摇钱时间,extraGold,0,额外摇钱总和
+,,,,,,,,,,,,,,,
+摇一摇,ShakeTree,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,,,,
+返回参数,ret,retCode.ERR,,goldNum,0,,extraGoldNum,0,额外金币总数,,,,,,
+,,,,,,,,,,,,,,,
+摇钱树领取额外奖励,TreeExtraGold,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,,,,
+返回参数,ret,retCode.ERR,,extraGold,0,额外摇钱总和,,,,,,,,,

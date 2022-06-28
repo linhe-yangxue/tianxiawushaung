@@ -1,0 +1,3 @@
+创建超级玩家,CreateSuperPlayer,,,,,,,,,,,,,,,,,,,,
+请求参数,tk,,gameToken,zid,0,区Id,zuid,,角色Id,superPlayerInfo,{SuperPlayerInfo},角色信息,superPetInfo,[SuperPetInfo],主角和符灵信息,superEquipInfo,[SuperEquipInfo],装备和法器信息,stageId,0,通关关卡号
+返回参数,ret,retCode.ERR,,,,,,,,,,,,,,,,,,,

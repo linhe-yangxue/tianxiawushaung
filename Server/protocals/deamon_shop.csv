@@ -1,0 +1,7 @@
+战功商店请求 ,DeamonShopQuery,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,,,,,,
+返回参数,ret,retCode.ERR,,buyState,[],,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+战功商店购买,DeamonShopPurchase,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,indexNum,0,,num,0,,itemIdArr,[]
+返回参数,ret,retCode.ERR,,isBuySuccess,0,,buyItem,[],,,,,,,,,

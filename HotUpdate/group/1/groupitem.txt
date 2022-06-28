@@ -1,0 +1,1 @@
+{"minversion":"0.7.8","maxversion":"0.7.8","limitmemory":"1024","limitdevicelist":"","notice":"notice","patchpath":[""],"serverlist":[{"id":"1","name":"160","ip":"10.0.1.21","port":"8080","state":"1"}]}

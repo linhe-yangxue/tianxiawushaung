@@ -1,0 +1,11 @@
+道具商店请求 ,PropShopQuery,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,,,
+返回参数,ret,retCode.ERR,,prop,[],,,,,,,,,
+,,,,,,,,,,,,,,
+道具商店购买,PropShopPurchase,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,sIndex,0,,num,0
+返回参数,ret,retCode.ERR,,isBuySuccess,0,,,,,,,,,
+,,,,,,,,,,,,,,
+道具商店单个物品购买请求 ,PropShopItemQuery,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,index,-1,物品索引,,
+返回参数,ret,retCode.ERR,,prop,[Buy],,,,,,,,,

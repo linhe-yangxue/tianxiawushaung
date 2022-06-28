@@ -1,0 +1,27 @@
+公会BOSS请求 ,GuildBossInfo,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,用户ID,,,
+返回参数,ret,retCode.ERR,,guildBoss,{},公会BOSS信息,guildId,-1,公会ID,,,
+,,,,,,,,,,,,
+公会BOSS战斗开始,GuildBossBattleStart,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,用户ID,,,
+返回参数,ret,retCode.ERR,,guildId,-1,公会ID,,,,,,
+,,,,,,,,,,,,
+公会BOSS战斗结束,GuildBossBattleEnd,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,用户ID,damage,-1,对公会BOSS造成的伤害
+返回参数,ret,retCode.ERR,,guildBoss,{},公会BOSS信息,attr,[ItemObject],掉落队列 ItemObject,,,
+,,,,,,,,,,,,
+公会BOSS领取奖励 ,GuildBossGetReward,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,用户ID,,,
+返回参数,ret,retCode.ERR,,attr,[ItemObject],掉落队列 ItemObject,guildId,-1,公会ID,,,
+,,,,,,,,,,,,
+公会BOSS初始化,GuildBossInit,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,用户ID,mid,-1,公会BOSS的ID
+返回参数,ret,retCode.ERR,,guildId,-1,公会ID,,,,,,
+,,,,,,,,,,,,
+公会BOSS购买挑战次数,GuildBossBuyBattleTimes,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,用户ID,times,-1,公会BOSS购买战斗次数
+返回参数,ret,retCode.ERR,,guildId,-1,公会ID,,,,,,
+,,,,,,,,,,,,
+获取指定的公会BOSS基础信息,GuildBossInfoSimple,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,用户ID,,,
+返回参数,ret,retCode.ERR,,guildBossSimple,{},GuildBoss的精简信息，不包括战斗人员信息,guildBossWarrior,{},本人公会BOSS战斗记录信息,guildId,-1,公会ID

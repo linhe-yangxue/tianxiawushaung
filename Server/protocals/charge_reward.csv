@@ -1,0 +1,11 @@
+充值送礼请求,ChargeRewardQuery,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,
+返回参数,ret,retCode.ERR,,indexArr,[],返回已领取的奖励对应的配表索引,money,0,充值总金额,,,
+,,,,,,,,,,,,
+充值送礼领取,ChargeReward,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,rmbNum,0,人民币金额数
+返回参数,ret,retCode.ERR,,awardArr,[ItemObject],奖励数组,,,,,,
+,,,,,,,,,,,,
+活动相关时间,OpenEndTime,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,
+返回参数,ret,retCode.ERR,,rechargeTime,{ActivityTime},充值送礼活动时间,cumulativeTime,{ActivityTime},累计消费活动时间,,,

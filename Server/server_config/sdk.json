@@ -1,0 +1,9 @@
+{
+	"sdkServer" : "http://10.0.0.117:8000/",
+	"sdkLogin" : "/Login",
+	"sdkSaveOrder" : "/SaveOrder",
+	"sdkCheckOrder" : "/CheckOrder",
+	"cpServer": "http://10.0.0.117:8080/CS_ChargeResult",
+	"vfServer": "http://10.0.0.117:8080/CS_ChargeGetInfo",
+	"sdkKey": "v8nqcwj7pzwr8uxr"
+}

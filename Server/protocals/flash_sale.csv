@@ -1,0 +1,7 @@
+获取限时抢购列表,GetFlashSaleList,,,,,,,,,,,
+请求参数,tk,,,zid,0,,zuid,,角色ID,type,-1,显示抢购类型
+返回参数,ret,retCode.ERR,,flashSaleList,[FlashSaleItem],显示抢购商品列表,,,,,,
+,,,,,,,,,,,,
+限时抢购,FlashPurchase,,,,,,,,,,,
+请求参数,tk,,,zid,0,,zuid,,角色ID,index,-1,商品位于FlashSaleEvent.csv中的下标
+返回参数,ret,retCode.ERR,,rewards,[ItemObject],获取的奖励,,,,,,

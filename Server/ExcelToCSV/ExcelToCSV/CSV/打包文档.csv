@@ -1,0 +1,15 @@
+﻿SHEET: Sheet1
+
+Apk打包,,
+序号,操作,详细步骤及说明
+1,更新SVN,
+2,检查\Client\Assets\Config\StaticConfig\StaticConfig.csv,HOT_UPDATE [ip] 热更新IP地址， 是否为要设热更新地址
+3,修改\Client\Assets\Resources\Version\Version.txt,"version为当前版本号,channel为当前版本渠道号，UC = 1；裸包 = 0；模拟渠道 = 999"
+4,打开工程,使用Unity打开工程
+5,生成二进制文件,分别运行Start && StartGame
+6,生成工程文件或APK,打开Unity，点击  File-〉Build&settings
+7,填写工程配置,在弹窗中点击Player Settings
+8,填写工程配置,Bundle Version:[当前版本号]  Short Bundle Version:[当前版本号]   Bundle Version Code:[当前SVN Log号]
+9,SDK使用配置,Scripting Define Symbols填写   NO_USE_SDK，使用则不填
+10,打SDK包,在窗口中勾选Google Android Project项，点击Export导出，完成后并重命名文件夹为game，压缩为game.zip包发外网，在网站上打对应SDK包
+11,裸包,不做第10步，直接Build，生成apk文件

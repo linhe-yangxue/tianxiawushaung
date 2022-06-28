@@ -1,0 +1,7 @@
+使用道具,UseProp,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,prop,{ItemObject},道具,,,
+返回参数,ret,retCode.ERR,,items,[ItemObject],宝箱里的物品,,,,,,,,,
+,,,,,,,,,,,,,,,
+开宝箱玩家自选,OpenBoxSelect,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,prop,{ItemObject},道具,selectItem,{ItemObject},玩家选择的物品
+返回参数,ret,retCode.ERR,,items,[ItemObject],玩家选择的物品,,,,,,,,,

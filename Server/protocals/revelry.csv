@@ -1,0 +1,7 @@
+获得开服狂欢列表,GetRevelryList,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,角色ID,,,
+返回参数,ret,retCode.ERR,,revelryArr,[RevelryObject],狂欢内容列表,,,,,,
+,,,,,,,,,,,,
+领取开服狂欢奖励,TakeRevelryAward,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,-1,角色ID,revelryId,-1,狂欢Id
+返回参数,ret,retCode.ERR,,awards,[ItemObject],奖励物品,revelryId,-1,狂欢Id,,,

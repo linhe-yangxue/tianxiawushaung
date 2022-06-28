@@ -1,0 +1,7 @@
+幸运翻牌请求,FreeDiamond,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,用户ID
+返回参数,ret,retCode.ERR,,residueNum,0,剩余翻牌次数,,,
+,,,,,,,,,
+开始翻牌,transformCard,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,用户ID
+返回参数,ret,retCode.ERR,,diamondIndex,0,元宝编号,residueNum,0,剩余翻牌次数

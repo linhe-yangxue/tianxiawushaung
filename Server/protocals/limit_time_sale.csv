@@ -1,0 +1,7 @@
+限时抢购请求,LimitTimeSale,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,用户ID,,,
+返回参数,ret,retCode.ERR,,haveBuyNum,[],已购买次数,,,,,,
+,,,,,,,,,,,,
+抢购物品,BuyCheapWares,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,用户ID,buyWareIndex,0,购买宝箱编号
+返回参数,ret,retCode.ERR,,randWareID,[],发放物品ID,haveBuyNum,0,已购买次数,,,

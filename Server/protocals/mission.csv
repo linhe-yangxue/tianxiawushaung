@@ -1,0 +1,27 @@
+获得日常任务信息,GetDailyTaskData,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,角色Id,,,
+返回参数,ret,retCode.ERR,,curScore,0,当前积分,scoreAwards,[int],已经领取的索引,arr,[TaskObject],日常任务信息对象组
+,,,,,,,,,,,,
+获得成就任务信息,GetAchievementData,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,角色Id,,,
+返回参数,ret,retCode.ERR,,arr,[TaskObject],成就任务信息对象组,,,,,,
+,,,,,,,,,,,,
+领取日常任务奖励,GetDailyTaskAward,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,角色Id,taskId,-1,任务id
+返回参数,ret,retCode.ERR,,arr,[ItemObject],掉落队列 ItemObject,,,,,,
+,,,,,,,,,,,,
+领取成就任务奖励,GetAchievementAward,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,角色Id,taskId,-1,任务id
+返回参数,ret,retCode.ERR,,arr,[ItemObject],掉落队列 ItemObject,,,,,,
+,,,,,,,,,,,,
+领取积分宝箱奖励,GetTaskScoreAward,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,角色Id,awardId,-1,积分宝箱id
+返回参数,ret,retCode.ERR,,arr,[ItemObject],掉落队列 ItemObject,,,,,,
+,,,,,,,,,,,,
+获取主线任务信息,GetBattleTask,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,角色Id,,,
+返回参数,ret,retCode.ERR,,taskArr,[BattleTask],当前任务列表,,,,,,
+,,,,,,,,,,,,
+领取主线任务奖励,GetBattleTaskAward,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,角色Id,taskId,-1,任务Id
+返回参数,ret,retCode.ERR,,nextTask,{BattleTask},下一个任务,awards,[ItemObject],奖励物品列表,,,

@@ -1,0 +1,15 @@
+每日签到请求 ,DailySignQuery,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID
+返回参数,ret,retCode.ERR,,signNum,1,,isSign,0,
+,,,,,,,,,
+每日签到领取,DailySign,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID
+返回参数,ret,retCode.ERR,,isSignSuccess,0,,item,[ItemObject],
+,,,,,,,,,
+豪华签到请求 ,LuxurySignQuery,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID
+返回参数,ret,retCode.ERR,,isSign,0,,isRecharge,0,
+,,,,,,,,,
+豪华签到领取,LuxurySign,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID
+返回参数,ret,retCode.ERR,,isSignSuccess,0,,item,[ItemObject],

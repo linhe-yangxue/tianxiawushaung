@@ -1,0 +1,7 @@
+首冲请求 ,FirstChargeQuery,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID
+返回参数,ret,retCode.ERR,,code,0,首充领取状态,,,
+,,,,,,,,,
+首冲送礼,FirstChargeReward,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID
+返回参数,ret,retCode.ERR,,rewards,[ItemObject],奖励数组,,,

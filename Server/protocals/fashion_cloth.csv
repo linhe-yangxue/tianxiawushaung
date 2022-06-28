@@ -1,0 +1,11 @@
+时装请求,FashionCloth,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,uid,,用户ID,clothID,-1,时装ID,,,
+返回参数,ret,retCode.ERR,,clothLevel,0,时装强化等级,,,,,,,,,
+,,,,,,,,,,,,,,,
+时装强化,ClothStrength,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,uid,,用户ID,clothID,-1,时装ID,consume,{ItemObject},消耗的时装精华对象
+返回参数,ret,retCode.ERR,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+时装重铸,ClothRecoin,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,uid,,用户ID,clothID,-1,时装ID,,,
+返回参数,ret,retCode.ERR,,restitution,[ItemObject],返还的东西,,,,,,,,,

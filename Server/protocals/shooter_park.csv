@@ -1,0 +1,7 @@
+进入射手乐园 ,ShooterQuery,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID
+返回参数,ret,retCode.ERR,,addDiamond,0,累计元宝,usingTimes,0,已射击次数
+,,,,,,,,,
+射击,ShooterPark,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID
+返回参数,ret,retCode.ERR,,earnRatio,0,获得的奖励,,,

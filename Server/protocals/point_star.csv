@@ -1,0 +1,7 @@
+获取点星界面的功能,PointStarMap,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,角色Id,,,
+返回参数,ret,retCode.ERR,,currentIndex  ,1,当前的索引,,,,,,
+,,,,,,,,,,,,
+点击点亮按钮,PointLightenClick,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,角色Id,itemArr,[ItemObject],物品队列 ItemObject
+返回参数,ret,retCode.ERR,,currentIndex,1,当前的索引,arr,[ItemObject],掉落队列 ItemObject,,,

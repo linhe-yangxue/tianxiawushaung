@@ -1,0 +1,7 @@
+保存新手引导,SaveGuideProgress,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色Id,guideProgress,0,新手引导进度,guideIndex,0,每个引导中的步骤id,deviceId,,设备Id,clientVersion,,客户端版本,systemSoftware,,移动终端操作系统版本,systemHardware,,移动终端机型,name,,新手引导名字
+返回参数,ret,retCode.ERR,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+请求新手引导,QueryGuideProgress,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色Id,,,,,,,,,,,,,,,,,,,,,
+返回参数,ret,retCode.ERR,,resGuideProgress,0,新手引导进度,,,,,,,,,,,,,,,,,,,,,,,,

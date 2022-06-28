@@ -1,0 +1,1 @@
+[{"id":"1","version":"0.7.8","plateform":"android","channel":[{"id":"0","updUrl":"http://10.0.1.21:1313"},{"id":"4","updUrl":"http://10.0.1.21:1313"}],"group":"1"}]

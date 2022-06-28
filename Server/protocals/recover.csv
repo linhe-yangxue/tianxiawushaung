@@ -1,0 +1,15 @@
+宠物分解,PetDisenchant,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色Id,arr,[ItemObject],要分解的宠物数组
+返回参数,ret,retCode.ERR,,arr,[ItemObject],分解返回的道具,,,,,,
+,,,,,,,,,,,,
+宠物重生,PetRebirth,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色Id,item,{ItemObject},要重生的宠物对象
+返回参数,ret,retCode.ERR,,arr,[ItemObject],分解返回的道具,,,,,,
+,,,,,,,,,,,,
+装备分解,EquipDisenchant,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色Id,arr,[ItemObject],要分解的装备数组
+返回参数,ret,retCode.ERR,,arr,[ItemObject],分解返回的道具,,,,,,
+,,,,,,,,,,,,
+法器重生,MagicRebirth,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色Id,item,{ItemObject},要重生的法器对象
+返回参数,ret,retCode.ERR,,arr,[ItemObject],分解返回的道具,,,,,,

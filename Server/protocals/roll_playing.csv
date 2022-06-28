@@ -1,0 +1,7 @@
+请求走马灯,GetRollPlaying,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色Id
+返回参数,ret,retCode.ERR,,arr,[RollPlayingObject],走马灯信息,,,
+,,,,,,,,,
+请求公告,GetAnnounce,,,,,,,,
+请求参数,channelId,0,渠道id,,,,,,
+返回参数,ret,retCode.ERR,,arr,[AnnounceObject],公告信息,,,

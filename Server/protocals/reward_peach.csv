@@ -1,0 +1,7 @@
+领仙桃 ,RewardPower,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID
+返回参数,ret,retCode.ERR,,,,,,,
+,,,,,,,,,
+领仙桃请求,PowerQuery,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID
+返回参数,ret,retCode.ERR,,isPower_1,0,,isPower_2,0,

@@ -1,0 +1,9 @@
+文件ConfigToggle：用于配置游戏内开关
+ConfigToggle内配置项：
+isCheckApkUpdate：是否检查APK大版本更新
+isUseHotUpdate：是否启用热更新
+isUseSDK：是否使用SDK
+isEnableGuide：是否启用新手引导
+isEnablePrologue：是否启用假战斗
+isUseHttps：是否在游戏中使用https
+isCheckResolution：是否检查屏幕分辨率限制{isCheck：是否开启检查，min：最低分辨率}

@@ -1,0 +1,11 @@
+公会商店请求 ,GuildShopQuery,,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,角色ID,zgid,,公会ID,,,,,,
+返回参数,ret,retCode.ERR,,otherArr,[Buy],其他更新队列,pubLimArr,[Buy],公会限时队列,priLimArr,[Buy],个人限时队列,guildId,,公会ID,time,0,距离下一次刷新的时间
+,,,,,,,,,,,,,,,,,,
+公会商店非限时购买 ,GuildShopOtherBuy,,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,角色ID,gIndex,-1,,num,0,,zgid,,公会ID
+返回参数,ret,retCode.ERR,,isBuySuccess,0,购买成功与否,guildId,,公会ID,buyItem,[ItemObject],,,,,,,
+,,,,,,,,,,,,,,,,,,
+公会商店限时购买 ,GuildShopLimitBuy,,,,,,,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,角色ID,gIndex,-1,,num,0,,zgid,,公会ID
+返回参数,ret,retCode.ERR,,isBuySuccess,0,购买成功与否,guildId,,公会ID,buyItem,[ItemObject],,,,,,,

@@ -1,0 +1,1 @@
+{"isCheckApkUpdate":"true","isUseHotUpdate":"true","isUseSDK":"true","isOpenHotUpdateLog":"true","isOpenHotUpdateTempLog":"true","isEnableGuide":"true","isEnablePrologue":"true","isUseHttps":"false","isCheckResolution":{"isCheck":"true","min":"4:3"}}

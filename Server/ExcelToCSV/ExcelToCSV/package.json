@@ -1,0 +1,9 @@
+{
+  "name": "ExcelToCSV",
+  "version": "0.0.1",
+  "main": "ExcelToCSV.js",
+  "dependencies": {
+    "fs": "0.0.2",
+    "xlsx": "^0.8.0"
+  }
+}

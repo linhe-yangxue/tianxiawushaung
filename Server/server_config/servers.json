@@ -1,0 +1,9 @@
+{
+    "gmServer" : {
+        "port" : "8090"
+    },
+    
+    "gameServer" : {
+        "port" : "8080"
+    }
+}

@@ -1,0 +1,7 @@
+消费返利请求,CostEvent,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,用户ID,,,
+返回参数,ret,retCode.ERR,,costNums,0,消费元宝数,prizeStatus,[],领奖状态信息,chargeAward,[],返利内容
+,,,,,,,,,,,,
+领取返利物品,receivePrize,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,用户ID,clickItemMoney,0,要领取福利的ID
+返回参数,ret,retCode.ERR,,prizeContent,[ItemObject],返利内容,,,,,,

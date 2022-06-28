@@ -1,0 +1,7 @@
+碎片合成,FragmentCompose,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,fragment,{ItemObject},碎片对象
+返回参数,ret,retCode.ERR,,item,{ItemObject},合成的道具,,,,,,
+,,,,,,,,,,,,
+物品出售,Sale,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,itemArr,[ItemObject],出售对象数组
+返回参数,ret,retCode.ERR,,reward,{ItemObject},出售获得回报,,,,,,

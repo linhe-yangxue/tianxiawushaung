@@ -1,0 +1,7 @@
+登录送礼请求,LoginRewardQuery,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,,,
+返回参数,ret,retCode.ERR,,dayArr,[],,,,,,,
+,,,,,,,,,,,,
+登录送礼领取,LoginReward,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,0,区ID,zuid,,角色ID,day,0,开服第几天
+返回参数,ret,retCode.ERR,,loginReward,[ItemObject],登录奖励数组,,,,,,

@@ -1,0 +1,11 @@
+每日副本信息,DailyStageInfo,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,用户ID,,,
+返回参数,ret,retCode.ERR,,dailyStage,[DailyStage],每日副本信息,,,,,,
+,,,,,,,,,,,,
+每日副本战斗开始,DailyStageBattleStart,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,用户ID,mid,-1,每日副本的index
+返回参数,ret,retCode.ERR,,,,,,,,,,
+,,,,,,,,,,,,
+每日副本战斗结束,DailyStageBattleEnd,,,,,,,,,,,
+请求参数,tk,,网络令牌,zid,-1,区ID,zuid,,用户ID,mid,-1,每日副本的index
+返回参数,ret,retCode.ERR,,attr,[ItemObject],掉落队列 ItemObject,,,,,,

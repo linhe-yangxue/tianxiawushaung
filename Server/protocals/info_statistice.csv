@@ -1,0 +1,11 @@
+App首次启动,AppLaunch,,,,,,,,,,,,,,,,,,,,,,,
+请求参数,deviceId,,设备唯一ID(64字节),channel,,渠道名称(32字节),ip,,客户端IP,clientVersion,,客户端版本,systemSoftware,,终端操作系统版本(32字节),systemHardware,,移动终端机型(32字节),mac,,mac地址(32字节),,,
+返回参数,ret,retCode.ERR,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+App首次加载步骤,AppLoadStep,,,,,,,,,,,,,,,,,,,,,,,
+请求参数,deviceId,,设备唯一ID(64字节),channel,,渠道名称(32字节),clientVersion,,客户端版本,systemSoftware,,终端操作系统版本(32字节),systemHardware,,移动终端机型(32字节),step,0,完成第1步加载记录10；完成第2步加载记录20；以此类推,interval,0,从初始化到当前步骤的时间。单位秒,,,
+返回参数,ret,retCode.ERR,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+App热更新,AppUpdate,,,,,,,,,,,,,,,,,,,,,,,
+请求参数,deviceId,,设备唯一ID(64字节),channel,,渠道名称(32字节),clientVersion,,客户端版本,systemSoftware,,终端操作系统版本(32字节),systemHardware,,移动终端机型(32字节),gameVersion1,,更新前版本号,gameVersion2,,更新后版本号,updateTime,0,更新过程所花的时间。单位秒
+返回参数,ret,retCode.ERR,,,,,,,,,,,,,,,,,,,,,,
