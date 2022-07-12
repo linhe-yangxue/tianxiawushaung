@@ -61,7 +61,8 @@ target = os.path.join(root, "server", "game_server", "packets")
 if not os.path.isdir(target): exit(0)
 
 for file in os.listdir(os.path.join(root, "protocals")):
-    protocal = open(os.path.join(root, "protocals", file), "r")
+    protocal = open(os.path.join(root, "protocals", file),
+                    "r", encoding='unicode_escape')
     n = []
     for line in protocal.readlines():
         n.append(line.strip().split(","))

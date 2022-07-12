@@ -29,7 +29,8 @@ if not os.path.isdir(target): exit(0)
 
 
 for file in os.listdir(os.path.join(root, "protocalsObject")):
-    proObj = open(os.path.join(root, "protocalsObject", file), "r")
+    proObj = open(os.path.join(root, "protocalsObject", file),
+                  "r", encoding='unicode_escape')
     n = []
     for line in proObj.readlines():
         n.append(line.strip().split(","))

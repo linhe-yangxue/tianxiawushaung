@@ -133,7 +133,8 @@ def isnumber(s):
 
 
 root = os.getcwd()
-proObj = open(os.path.join(root, "protocalsObject", "protocol_object.csv"), "r")
+proObj = open(os.path.join(root, "protocalsObject",
+              "protocol_object.csv"), "r", encoding='unicode_escape')
 m = []
 for line in proObj.readlines():
     m.append(line.strip().split(","))
@@ -143,7 +144,8 @@ if not os.path.isdir(target):
     os.mkdir(target)
 
 for file in os.listdir(os.path.join(root, "protocals")):
-    protocal = open(os.path.join(root, "protocals", file), "r")
+    protocal = open(os.path.join(root, "protocals", file),
+                    "r", encoding='unicode_escape')
     n = []
     for line in protocal.readlines():
         n.append(line.strip().split(","))
@@ -217,40 +219,3 @@ for file in os.listdir(os.path.join(root, "protocals")):
 
     js.write(template % (file.split(".")[0], str1, str2))
     js.close()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

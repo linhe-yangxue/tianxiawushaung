@@ -120,7 +120,8 @@ if not os.path.isdir(build_path) or not os.path.exists(build_path):
     os.makedirs(build_path) 
 
 for file in os.listdir(src_path):
-    protocal = open(os.path.join(src_path, file), "r")
+    protocal = open(os.path.join(src_path, file),
+                    "r", encoding='unicode_escape')
     n = []
     for line in protocal.readlines():
         n.append(line.strip().split(","))
