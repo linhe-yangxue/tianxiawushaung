@@ -38,6 +38,7 @@ var cSingleRecharge = require('../common/single_recharge');
 var globalObject = require('../../common/global_object');
 var timeUtil = require('../../tools/system/time_util');
 var chargeCommon = require('../common/charge_common');
+const crypto = require('crypto');
 
 /**
  * 协议主逻辑的实现
@@ -503,6 +504,22 @@ var CS_ChargeFeedBack = (function() {
     return CS_ChargeFeedBack;
 })();
 
+function chunkSplit(paramString, paramLength, paramEnd = '\n') {
+    let p = [];
+    let s = paramString;
+    while (s.length > paramLength) {
+        let s1 = s.substr(0, paramLength);
+        let s2 = s.substr(paramLength);
+        s = s2;
+        p.push(s1);
+    }
+    if (s.length > 0) {
+        p.push(s);
+    }
+    p.push('');
+    return p.join(paramEnd);
+}
+
 /**
  * 用户支付订单
  */
@@ -544,6 +561,22 @@ var CS_ChargePayOrder = (function() {
             }
 
             async.waterfall([
+                // 2022年7月20日、谷歌验证              
+                function GooglePlayCheck(params) {
+                    let verify = crypto.createVerify('RSA-SHA1');
+                
+                    let PHP_EOL = '\n';
+                    let inappPurchaseData = '';
+                    let googlePublicKey = '';
+                    let inappDataSignature = '';
+                    let publicKey = "-----BEGIN PUBLIC KEY-----" + PHP_EOL + chunkSplit(googlePublicKey, 64, PHP_EOL) + "-----END PUBLIC KEY-----";
+                
+                    verify.update(inappPurchaseData);
+                    let r = verify.verify(publicKey, Buffer.from(inappDataSignature, 'base64')); //验证数据
+                
+                    console.log(params + "-->rrrrrrrrrrr:", r);
+                },
+
                 /* Game server 网络令牌验证 */
                 function(callback) {
                     accountDb.checkGameToken(req.zid, req.zuid, req.tk, req.mac, callback);

@@ -4,7 +4,7 @@ var csvParse = require('../tools/parse/csv');
 
 /**
  * [当前为生成代码，不可以修改] RobotConfig 类为 RobotConfigTable 每一行的元素对象
- * */
+ **/
 var RobotConfig = (function() {
 
     /**
